@@ -18,9 +18,9 @@ namespace P05.DrumSet
             {
                 int hitPower = int.Parse(command);
 
-                currentDrum = GetHitPower(currentDrum, hitPower);  //Remove hitPower
+                currentDrum = GetHitPower(currentDrum, hitPower);  //Remove hitPower !!!
 
-                for (int i = 0; i < currentDrum.Count; i++)          // check drumPower
+                for (int i = 0; i < currentDrum.Count; i++)          // check drumPower !!!
                 {
                     if (currentDrum[i] <= 0 && (drumSet[i] * 3) <= money)
                     {
